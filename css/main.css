@@ -1,0 +1,169 @@
+:root {
+  --dark-gray: #4a4a59;
+  --gray: #d9dadc;
+  --black:#070405;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/*----- header-nav ------*/
+.nav-wrapper, .page-footer {
+  background: rgba(19, 69, 110, 1)!important;
+}
+
+.list-menu a{
+  color: white;
+  vertical-align: center;
+}
+
+.list-menu li{
+  padding: 5px 0;
+  text-align: center;
+  width: 33.3%;
+}
+
+.list-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.indicators > .active{
+  background-color: #87BCDE!important;
+}
+/*----- Generals -----*/
+.mr-5 {
+  margin-right: 5px;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.mb-0 {
+  margin-bottom: 0!important;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+.mr-0 {
+  margin-right: 0!important;
+}
+.mg-0 {
+  margin: 0!important;
+}
+
+.pdt-0 {
+  padding-top: 0!important;
+}
+
+.pdr-0 {
+  padding-right: 0!important;
+}
+.pdl-0 {
+  padding-left: 0!important;
+}
+
+.pdb-0 {
+  padding-bottom: 0!important;
+}
+.pd-0 {
+  padding: 0;
+}
+
+.mb-10 {
+  margin-bottom: 10px!important;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.inline {
+  display: inline;
+}
+
+body {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn-see-trailer {
+  padding: 0px 10px;
+  font-size: 12px;
+  border-radius: 10px;
+  background-color: #F03A47;
+  width: 125px;
+}
+
+.caption {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer{
+  position: fixed;
+  top: 90vh;
+  width: 100vw;
+}
+
+nav {
+  position: fixed;
+  z-index: 10;
+}
+#section-list-gender {
+  margin-top: 10vh;
+}
+
+ #section-login{
+   margin-top: 15vh;
+   height: inherit;
+ }
+
+.hidden {
+  visibility: hidden;
+}
+
+.list-social-networks li, .btn-login-social-network li {
+  display: inline-block;
+}
+#list-movie {
+  width: 200px;
+  margin: 0;
+}
+
+.btn-login-social-network {
+  margin-top: 20vh;
+}
+#section-movie {
+  margin-top: 20vh;
+}
+
+.card-title-movie {
+  font-size: 12px!important;
+}
+
+.text-date {
+  background-color: #D8315B;
+  padding: 0px 20px!important;
+  margin-bottom: 10%;
+  font-size: 16px!important;
+  border-radius: 10px;
+}
+
+.size-title-movie {
+  font-size: 12px!important;
+}
+
+@media (min-width: 426px){
+  footer {
+    position: relative;
+    top: 0;
+    width: auto;
+  }
+}

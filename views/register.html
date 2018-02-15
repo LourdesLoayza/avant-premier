@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Avant premier</title>
+
+  <!-- Links CSS Styles-->
+  <link rel="stylesheet" href="../assets/icons/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../vendors/materialize/css/materialize.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+  <!-- Header section -->
+  <header>
+    <nav id="nav-menu">
+      <div class="nav-wrapper">
+        <a href="../index.html" class="brand-logo left">Logo</a>
+        <ul class="right">
+          <li>
+            <a href="../index.html">
+              <i class="material-icons">home</i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+  <!-- Register section -->
+  <section id="section-login">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6 push-l3 m6 push-m3">
+          <div class="container-forms">
+            <div class="row" id="section-login">
+              <div class="contenido-tab">
+                <!-- Register -->
+                <div id="registrarse">
+                  <h5 class="center">Registrarse</h5>
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input class="validate" id="name" type="text">
+                    <label for="icon_prefix">Usuario</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">mail_outline</i>
+                    <input class="validate" id="email" type="email">
+                    <label for="icon_prefix">E-mail</label>
+                  </div>
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">lock_outline</i>
+                    <input class="validate" id="pass" type="password">
+                    <label for="icon_prefix">Contraseña</label>
+                  </div>
+                  <button onclick='register()' type="submit" class="btn waves-effect waves-light right login" name="action">Registrarse
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer section -->
+  <footer class="page-footer pdt-0">
+    <!-- footer para trablet y desktop -->
+    <div class="container hide-on-small-only">
+      <div class="row">
+        <div class="col l4 m4">
+          <h6>Avant Premier</h6>
+          <!-- <hr> -->
+          <p>Aquí podrás encontrar toda la información necesaria de los próximos estrenos a lanzar.</p>
+        </div>
+        <div class="col l4 m5">
+          <h6>Contáctanos</h6>
+          <!-- <hr> -->
+          <ul>
+            <li>
+              <i class="material-icons">place</i> Av. Benavides 1807, Miraflores</li>
+            <li>
+              <i class="material-icons">phone</i> +051 1 5629732</li>
+            <li>
+              <i class="material-icons">mail_outline</i> soporte@avantpremier.com.pe</li>
+          </ul>
+        </div>
+        <div class="col l4 m3">
+          <h6>Redes sociales</h6>
+          <!-- <hr> -->
+          <ul class="list-social-networks">
+            <li>
+              <a class="btn-floating waves-effect">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a class="btn-floating waves-effect">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a class="btn-floating waves-effect">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center">
+        © 2018 Copyright Text
+      </div>
+    </div>
+  </footer>
+
+  <!-- Firebase's links conection -->
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+  <script src="../js/firebase-conection.js"></script>
+  <!-- Scripts's sections-->
+  <script src="../vendors/jquery/jquery-3.2.1.js"></script>
+  <script src="../vendors/materialize/js/materialize.min.js"></script>
+  <script src="../js/login.js"></script>
+</body>
+
+</html>
