@@ -1,5 +1,5 @@
 # Avant-Premier
-Bicis locas es una tienda online, en la cual encontrarás tu bici ideal. Sólo llena el formulario y te contáctaremos.
+Avant Premier es una website muy interactiva en la que podrás encontrar toda la información necesaria de los próximos estrenos a lanzar en las carteleras locales.
 
 ![image](https://user-images.githubusercontent.com/30554218/36395552-b97875b8-1587-11e8-92b2-94e5fe06d24f.png)
 
