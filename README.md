@@ -1,7 +1,7 @@
 # Avant-Premier
 Bicis locas es una tienda online, en la cual encontrarás tu bici ideal. Sólo llena el formulario y te contáctaremos.
 
-![avant-premier](assets/docs/vista1.jpg)
+![image](https://user-images.githubusercontent.com/30554218/36395552-b97875b8-1587-11e8-92b2-94e5fe06d24f.png)
 
 ## Desarrollado para 
 [Laboratoria](http://laboratoria.la)
